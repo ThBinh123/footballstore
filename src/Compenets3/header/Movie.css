@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: serif;
+    background: linear-gradient(#4b4b4b, #353b48, #4b4b4b);
+}
+
+.Shop img {
+    width: 100%;
+}
+
+.Shop1 .logo {
+    width: 8%;
+}
+
+.Shop {
+    /* background:#4b4b4b; */
+    background: linear-gradient(#4b4b4b, #353b48, #4b4b4b);
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1080;
+    height: 180px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 1px solid #f39c12;
+    /* position: relative; */
+}
+
+.Shop p {
+    padding-top: 10px;
+}
+
+.Shop1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.Shop1 .search {
+    width: 50%;
+    text-align: center;
+
+}
+
+.Shop1 .search input {
+    width: 70%;
+    border: none;
+    padding: 4px;
+}
+
+.Shop1 .search button {
+    border: none;
+    padding: 4px;
+    background-color: #fff;
+    width: 10%;
+}
+
+.shop1 .fashop {
+    margin-left: 10px;
+}
+
+.Shop .shop_pt {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Shop .shop_pt:hover {
+    color: #f39c12;
+}
+
+.length {
+    color: #e84118;
+    font-size: 20px;
+
+}
+
+.Shop2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fashop .shop_pt {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.Shop .since {
+    font-size: 10px;
+}
+
+.toggle {
+    width: 5%;
+    font-size: 16px;
+    display: none;
+}
+
+.toggleshow {
+    position: absolute;
+    color: #fff; 
+    width: 35%;
+    transition: 1s;
+    right: -5%;
+    top: 100%;
+
+}
+
+.toggleshow .navbar {
+    display: block;
+    position: absolute;
+    padding: 20px;
+    background-color:#4b4b4b;
+    transition: 1s;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.toggleshow .navbar .pt  {
+    margin-top: 50px;
+
+}
+.toggleshow .navbar .pt .pt2{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.toggleshow .navbar .pt2:hover {
+    color: #f39c12;
+}
+
+@media screen and (max-width: 800px) {
+    .Shop2 {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .fashop .shop_pt {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .Shop1 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .Shop{
+        height:100px;
+    }
+}
