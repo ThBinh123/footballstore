@@ -15,7 +15,7 @@ body {
 }
 
 .Shop1 .logo {
-    width: 8%;
+    width: 15%;
 }
 
 .Shop {
@@ -103,8 +103,10 @@ body {
 
 .toggle {
     width: 5%;
-    font-size: 16px;
+    font-size: 20px;
     display: none;
+    margin-left: 5px;
+    color: #fff;
 }
 
 .toggleshow {
@@ -160,5 +162,35 @@ body {
     }
     .Shop{
         height:100px;
+    }
+}
+@media screen and (max-width: 400px){
+    .Shop1 .search input {
+        width: 60%;
+    }
+    .Shop1 {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .Shop1 .search button {
+        width: 15%;
+    }
+    .toggle {
+        width: 4%;
+        font-size: 15px;
+    }
+    .shop1 .fashop {
+        width: 5%;
+    }
+    .fashop .shop_pt {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .length {
+        font-size: 12px;
+    
+    }
+    .Shop .since {
+        font-size: 6px;
     }
 }

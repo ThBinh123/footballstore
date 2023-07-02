@@ -159,7 +159,7 @@
     .contain .box {
         width:70%;
         margin-bottom: 40px;
-        height: 200px;
+        height: 160px;
     }
     .main{
         display: block;
@@ -168,7 +168,27 @@
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .home{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width : 400px) { 
+    .contain .box {
         margin-bottom: 40px;
+        height: 130px;
+    }
+    .main .box-main {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+    .home h1 {
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 3%;
     }
 }
 

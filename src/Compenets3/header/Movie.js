@@ -25,7 +25,7 @@ export default function Movie() {
                     <Link className="shop_pt" to="/GioHang"><BsCartCheckFill /><span className="length">{cart.length}</span></Link>
 
                 </div>
-                <button className="toggle" onClick={() => setShow(!show)}><BsToggles/></button>
+                <Link className="toggle" onClick={() => setShow(!show)}><BsToggles/></Link>
 
                 <div className="toggleshow">
                 {

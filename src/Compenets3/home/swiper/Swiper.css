@@ -53,19 +53,42 @@
    border-radius: 10px;
   
 }
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 800px) {
     .box-swiper .image{
-        height: 200px;
+        height: 180px;
     }
     .box-swiper{
-        height: 300px;
+        height: 250px;
     }
     .box-swiper:hover .linkswiper{
-        top: 20%;
+        top: 15%;
         transition: 1s;
     }
     .box-swiper:hover .nameswiper{
-       bottom: 30%;
+       bottom: 23%;
        transition: 1s;
+      
+    }
+    .box-swiper .nameswiper{
+        font-size: 13px;
+        bottom: 2%;
+    }
+}
+@media screen and (max-width : 400px) {
+    .box-swiper .image{
+        height: 100px;
+    }
+    .box-swiper{
+        height: 140px;
+    }
+    .box-swiper:hover .linkswiper{
+        top: 14%;
+    }
+    .box-swiper:hover .nameswiper{
+       bottom: 20%;
+    }
+    .box-swiper .nameswiper{
+        font-size: 10px;
+        bottom: 2%;
     }
 }

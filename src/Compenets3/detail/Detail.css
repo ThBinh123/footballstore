@@ -3,6 +3,9 @@
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #Detail{
     color: #fff;
@@ -45,7 +48,9 @@
 }
 .sizeoder{
     border: 1px solid #f39c12;
-    width: 80%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .sizeoder .sizeoder2{
     margin-left: 5%;
@@ -85,6 +90,36 @@ h6{
 }
 @media screen and (max-width:800px) {
     .showdetail{
-        margin-top: 120px;
+        margin-top: 100px;
+    }
+    .showdetail p{
+    font-size: 16px;
+    }
+    #Detail{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:400px) {
+    .showdetail p{
+    font-size: 12px;
+    }
+    #Detail{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text2{
+        font-size: 14px;
+    }
+    .address h3{
+        font-size: 14px;
+    }
+    #Detail h4{
+        font-size: 16px;
+    }
+    .product_icon{
+        font-size: 12px;
     }
 }

@@ -53,6 +53,8 @@
     .footer .box-footer{
         width: 100%;
         margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .footer{
         display: block;
@@ -61,14 +63,50 @@
         width: 30%;
     }
     .footer .box-footer p{
-        font-size: 20px;
+        font-size: 14px;
     }
     .footer h3{
-        font-size: 30px;
+        font-size: 23px;
+
+    }
+    .footer h4{
+        font-size: 20px;
 
     }
     .BCT{
         justify-content: center;
+    }
+    
+}
+@media screen and (max-width : 400px ){
+    .footer .box-footer{
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer{
+        display: block;
+    }
+    .footer .box-footer .shopee img{
+        width: 40%;
+    }
+    .footer .box-footer p{
+        font-size: 12px;
+    }
+    .footer h3{
+        font-size: 20px;
+
+    }
+    .footer h4{
+        font-size: 17px;
+
+    }
+    .BCT{
+        width: 70%;
+    }
+    .internet a{
+        font-size: 20px;
     }
     
 }
