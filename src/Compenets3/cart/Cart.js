@@ -39,7 +39,7 @@ export default function Cart() {
                 color:"#fff"
                 
                 }}>
-                <h3>CHƯA CÓ SẢN PHẨM NÀO</h3>
+                <h3>CHƯA CÓ SẢN PHẨM NÀO aaaa</h3>
                 <a href="/SanPham" style={{color:"#f39c12"}}>Tiếp Tục Mua Hàng</a>
                 <div style={{marginTop:"20%"}}><Footer /></div>
             </div>
