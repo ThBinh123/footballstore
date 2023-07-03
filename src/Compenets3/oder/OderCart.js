@@ -25,7 +25,7 @@ export default function OderCart() {
         return x1 + x2;
     }
     return (
-        <div className="row" style={{ width: "100%" }} id="Pay">
+        <div className="row" style={{ width: "90%",paddingRight:"20px",paddingLeft:"20px" }} id="Pay">
 
 
             <div className="col-md-6" id="ship_pay" >
@@ -74,11 +74,11 @@ export default function OderCart() {
                             <div className="oderCart" style={{ display: "flex" }}>
                                 <img src={item.imageUrl} alt="" className="image-carts" />
                                 <div className="name_oderCart">{item.Name}</div>
-                                <p className="prices_oderCart"><div>{item.Buy}</div></p>
-                                <p className="btn_oderCart"> {item.qty} </p>
+                                <div className="prices_oderCart">{item.Buy}</div>
+                                <div className="btn_oderCart"> {item.qty} </div>
 
-                                <p className="sum_oder">
-                                    <div>{numberFormat((item.Buy * item.qty).toFixed(3).replace('.', ','))}</div></p>
+                                <div className="sum_oder">
+                                    <div>{numberFormat((item.Buy * item.qty).toFixed(3).replace('.', ','))}</div></div>
 
                             </div>
 
@@ -101,7 +101,7 @@ export default function OderCart() {
 
                 </div>
                 <div className="ship_oder">
-                    <div className="ship_oder1  py-3"><p>Tạm tính:</p><div className="shipodersum"><h5>{numberFormat((totalcart(cart)).toFixed(3).replace('.', ','))} vnd</h5></div></div>
+                    <div className="ship_oder1  py-3"><p className="shippd">Tạm tính:</p><div className="shipodersum"><h5>{numberFormat((totalcart(cart)).toFixed(3).replace('.', ','))} vnd</h5></div></div>
                     < div className="ship_oder2"><p>Phí vận chuyển:</p><h5>  50,000 vnd </h5></div>
                 </div>
                 <div className="sum_oderCart py-4">
