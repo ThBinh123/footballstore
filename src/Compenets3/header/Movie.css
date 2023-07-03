@@ -15,7 +15,7 @@ body {
 }
 
 .Shop1 .logo {
-    width: 15%;
+    width: 17%;
 }
 
 .Shop {
@@ -27,7 +27,7 @@ body {
     top: 0;
     left: 0;
     z-index: 1080;
-    height: 180px;
+    height: 200px;
     padding-left: 5%;
     padding-right: 5%;
     border-bottom: 1px solid #f39c12;
@@ -83,7 +83,6 @@ body {
 .length {
     color: #e84118;
     font-size: 20px;
-
 }
 
 .Shop2 {
@@ -149,19 +148,24 @@ body {
 
     .toggle {
         display: block;
+        font-size: 18px;
     }
 
     .fashop .shop_pt {
-        margin-left: 20px;
-        font-size: 20px;
+        margin-left: 18px;
+        font-size: 18px;
     }
 
     .Shop1 {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
     .Shop{
         height:100px;
+    }
+    .length {
+        font-size: 16px;
+    
     }
 }
 @media screen and (max-width: 400px){
@@ -192,5 +196,8 @@ body {
     }
     .Shop .since {
         font-size: 6px;
+    }
+    .Shop{
+        height:80px;
     }
 }
