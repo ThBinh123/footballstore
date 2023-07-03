@@ -1,7 +1,7 @@
 
 .home {
     text-align: center;
-    margin-top: 180px;
+    margin-top: 200px;
     justify-self: center;
     width: 100%;
     margin-left: auto;
@@ -173,6 +173,9 @@
     .home{
         margin-top: 100px;
     }
+    .main .box-main .text_main{
+        font-size: 16px;
+    }
 }
 @media screen and (max-width : 400px) { 
     .contain .box {
@@ -189,6 +192,9 @@
         font-size: 15px;
         margin-top: 30px;
         margin-bottom: 3%;
+    }
+    .main .box-main .text_main{
+        font-size: 12px;
     }
 }
 
