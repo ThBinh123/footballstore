@@ -20,8 +20,6 @@
 
 .carts .Carts_Box .btn .qty{
    padding: 10px;
-
-   
 }
 .carts .Carts_Box .font_name{
     width: 20%;
@@ -31,9 +29,6 @@
     width: 10%;
     font-size: 15px;
     text-align: center;
-}
-.carts .Carts_Box .prices .prices2{
-    color:#192a56;
 }
 .carts .Carts_Box .image-carts{
     width: 15%;
@@ -53,7 +48,7 @@
 .carts .Carts_Box{
     background-color: #fff;
     width: 80%;
-    height: 150px;
+    height: 130px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -89,8 +84,80 @@
     color: #fff;
 }
 h2{
-    padding-top: 200px;
+    padding-top: 220px;
     text-align: center;
     color: #fff;
     padding-bottom: 20px;
+}
+@media screen and (max-width:800px) {
+    h2{
+        padding-top: 120px;
+    }
+    .carts .Carts_Box{
+        height: 100px;
+    }
+    .carts .Carts_Box .font_name{
+        font-size: 12px;
+    }
+    .carts .Carts_Box .prices{
+        font-size: 12px;
+    }
+    .prices_sum{
+       font-size: 10px;
+    }
+    .carts .Carts_Box .btn{
+        font-size: 13px;
+        width: 13%;
+    }
+    .Delete {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    .total{
+        margin-left: 70%;
+    }
+    .total h3{
+        font-size: 17px;
+    }
+    .total p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:400px) {
+    h2{
+        padding-top: 100px;
+    }
+    .carts .Carts_Box{
+        height: 80px;
+    }
+    .carts .Carts_Box .font_name{
+        font-size: 10px;
+    }
+    .carts .Carts_Box .prices{
+        font-size: 10px;
+        width: 8%;
+    }
+    .prices_sum{
+       font-size: 8px;
+       width: 9%;
+    }
+    .carts .Carts_Box .btn{
+        font-size: 10px;
+        width: 12%;
+        border: none;
+        padding: 5px;
+    }
+    .Delete {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .total{
+        margin-left: 68%;
+    }
+    .total h3{
+        font-size: 12px;
+    }
+    .total p{
+        font-size: 8px;
+    }
 }
