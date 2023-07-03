@@ -17,7 +17,7 @@ export default function Movie() {
             <div className="Shop1">
                 <a className="logo" href="/"><img src={logo} ></img></a>
                 <div className="search">
-                    <input placeholder="Tìm Kiếm..."></input>
+                    <input className="search1" placeholder="Tìm Kiếm..."></input>
                     <button><AiOutlineSearch /></button>
                 </div>
                 <div className="fashop">
