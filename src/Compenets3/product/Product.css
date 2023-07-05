@@ -42,7 +42,7 @@
     color: #f0932b;
     position: absolute;
     top: 70%;
-    right: -100%;
+    right: -200%;
     transition: 1s;
 }
 
@@ -81,7 +81,7 @@
     color: aliceblue;
     font-size: 20px;
     position: absolute;
-    left: -100%;
+    left: -200%;
     top: 45%;
     transition: 1s;
     border: 1px solid #fff;
@@ -99,7 +99,7 @@
 
 .row .card .card-body .card-title {
     position: absolute;
-    top: -100%;
+    top: -200%;
     transition: 1s;
 }
 
@@ -109,7 +109,7 @@
 
 .row .card .card-body .card-text {
     position: absolute;
-    left: -100%;
+    left: -200%;
     transition: 1s;
     top: 30%;
     font-weight: bold;
@@ -169,37 +169,40 @@
     }
 
     .seen {
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .row .card .card-body .card-text {
-        font-size: 17px;
+        font-size: 11px;
     }
 
     .row .card .product_icon {
-        font-size: 15px;
+        font-size: 10px;
+    }
+    .row .card .card-body .card-title {
+        font-size: 11px;
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     .container h1 {
-        font-size: 18px;
+        font-size: 14px;
         margin-bottom: 14px;
     }
 
     .seen {
-        font-size: 12px;
+        font-size: 7px;
     }
 
     .row .card .card-body .card-text {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .row .card .product_icon {
-        font-size: 12px;
+        font-size: 8px;
     }
 
     .row .card .card-body .card-title {
-        font-size: 15px;
+        font-size: 8px;
     }
 }

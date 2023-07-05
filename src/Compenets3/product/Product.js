@@ -47,7 +47,7 @@ export default function Product() {
 
                 <div className="row">
                     {product && filterList(product).map((item, key) => (
-                        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 product-item " >
+                        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 product-item " >
                             <div class="card" key={key}>
                                 <img src={item.imageUrl} class="card-img-top" alt="..." />
                                 <div class="card-body">

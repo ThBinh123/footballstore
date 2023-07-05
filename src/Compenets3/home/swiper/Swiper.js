@@ -15,14 +15,13 @@ import {FaSearchDollar} from "react-icons/fa"
 import {AiFillEye} from "react-icons/ai"
 
 import "./Swiper.css"
-var value=2;
 function swiper() {
     return (
         <Swiper
         className='swipers'
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
-            slidesPerView={value}
+            slidesPerView={3}
             navigation={true}
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
